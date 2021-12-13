@@ -1,0 +1,21 @@
+{
+    "name": "commerce-api-client-codegen",
+    "version": "1.0.0",
+    "description": "openapi-generator-cli generate \\   -i spec/local.json \\   -g typescript-axios \\   -o out/typescript-axios --skip-validate-spec",
+    "main": "src/app.ts",
+    "scripts": {
+        "start": "tsc && node dist/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "type": "commonjs",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "^4.5.3"
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "tslib": "^2.3.1"
+    }
+}
